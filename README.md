@@ -94,5 +94,3 @@ This project is open-source and available under the **MIT License**.
 * OpenCV for powerful real-time image processing
 
 ---
-
-If you'd like, I can also generate a `requirements.txt` file or help you publish a demo. Let me know!
