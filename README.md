@@ -49,17 +49,7 @@ pip install opencv-python face_recognition numpy
 
 ---
 
-## 📂 Project Structure
 
-```
-face-recognition-and-detection/
-├── encodings/             # Stored face encodings
-├── images/                # Known face images (training data)
-├── dataset/               # Test dataset (optional)
-├── main.py                # Main script for recognition
-├── encode_faces.py        # Script to encode new faces
-└── README.md              # Project documentation
-```
 
 ---
 
@@ -78,7 +68,7 @@ This script will encode faces and save them to the `encodings/` folder.
 ### 2. Run Face Recognition
 
 ```bash
-python main.py
+python run streanlit_app/app.py
 ```
 
 This will start your webcam and perform real-time face recognition.
@@ -92,15 +82,6 @@ This will start your webcam and perform real-time face recognition.
 * If a match is found within the specified threshold, it identifies the person.
 
 ---
-
-## ✅ To Do
-
-* [ ] Add support for video file input
-* [ ] Export recognition results to a log file
-* [ ] Improve UI/UX with GUI (e.g., Tkinter or Streamlit)
-
----
-
 ## 📄 License
 
 This project is open-source and available under the **MIT License**.
